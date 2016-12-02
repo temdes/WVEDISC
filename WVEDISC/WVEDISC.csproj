@@ -205,10 +205,17 @@
     <Compile Include="Migrations\201611221556051_InitialModel.Designer.cs">
       <DependentUpon>201611221556051_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612021541505_CreateDiscussionTable.cs" />
+    <Compile Include="Migrations\201612021541505_CreateDiscussionTable.Designer.cs">
+      <DependentUpon>201612021541505_CreateDiscussionTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Discussion.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MyDiscussion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -285,6 +292,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201611221556051_InitialModel.resx">
       <DependentUpon>201611221556051_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612021541505_CreateDiscussionTable.resx">
+      <DependentUpon>201612021541505_CreateDiscussionTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

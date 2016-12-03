@@ -209,6 +209,10 @@
     <Compile Include="Migrations\201612021541505_CreateDiscussionTable.Designer.cs">
       <DependentUpon>201612021541505_CreateDiscussionTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612031350578_OverrideConventionsForDiscussionAndMyDiscussion.cs" />
+    <Compile Include="Migrations\201612031350578_OverrideConventionsForDiscussionAndMyDiscussion.Designer.cs">
+      <DependentUpon>201612031350578_OverrideConventionsForDiscussionAndMyDiscussion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -295,6 +299,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612021541505_CreateDiscussionTable.resx">
       <DependentUpon>201612021541505_CreateDiscussionTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612031350578_OverrideConventionsForDiscussionAndMyDiscussion.resx">
+      <DependentUpon>201612031350578_OverrideConventionsForDiscussionAndMyDiscussion.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
